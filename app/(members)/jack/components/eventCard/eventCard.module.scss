@@ -1,0 +1,41 @@
+// style your event card component!
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 700px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px #a5a5a5;
+  background-color: #f8f8f8;
+
+  .cardImage {
+    margin: 0;
+    height: 60%;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 10px 10px 0 0;
+    }
+  }
+
+  .cardDescription {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+
+    h2 {
+      margin: 0;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    p {
+      margin: 0;
+      font-size: 1.5rem;
+      line-height: 1.5;
+    }
+  }
+}
