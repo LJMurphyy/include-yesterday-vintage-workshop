@@ -2,9 +2,10 @@
 
 import { useState } from "react";
 import { Introduction } from "../introduction/Introduction.jsx";
+import { Skills } from "../skills/Skills.jsx";
 import styles from "./Main.module.scss";
 
-const pages = ["Introduction", "Projects"];
+const pages = ["Introduction", "Skills"];
 
 export function Main() {
   const [currPage, setCurrPage] = useState("Introduction");
@@ -28,6 +29,11 @@ export function Main() {
         {currPage === "Introduction" && (
           <div className={styles.fadeIn}>
             <Introduction />
+          </div>
+        )}
+        {currPage === "Skills" && (
+          <div className={styles.fadeIn}>
+            <Skills />
           </div>
         )}
       </main>
