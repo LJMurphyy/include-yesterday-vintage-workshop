@@ -1,6 +1,6 @@
 // TODO: Add styling for your About me section!
 .main {
-  background-color: #fafafa;
+  background-color: #fffcf2;
 
   .content {
     display: flex;
@@ -24,18 +24,18 @@
     }
 
     .role {
-      color: brown;
+      color: #3a2e39;
       font-size: 1rem;
     }
 
     h1 {
       margin: 8px 0 30px 0;
-      color: black;
+      color: #3a2e39;
       font-size: 4rem;
     }
 
     .items p {
-      color: gray;
+      color: #3a2e39;
       font-size: 1.25rem;
       line-height: 1.5;
     }
@@ -63,7 +63,7 @@
       left: 60px;
       width: 500px;
       height: 500px;
-      background-color: brown;
+      background-color: #1e555c;
       border-radius: 50%;
       z-index: 1;
     }

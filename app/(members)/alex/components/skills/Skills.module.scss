@@ -4,18 +4,19 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
-  background-color: #fafafa;
+  background-color: #fffcf2;
 
   .title {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
+    color: #3a2e39;
 
     h1 {
       font-size: 3.5rem;
 
-      border-bottom: 3px solid brown;
+      border-bottom: 3px solid #1e555c;
     }
   }
 
@@ -27,15 +28,15 @@
     width: 70%;
     height: 600px;
 
-    background-color: rgb(255, 255, 255);
+    background-color: #fffcf2;
 
     // border: solid black;
     border-radius: 20px;
-    box-shadow: 0 0 8px 5px rgb(245, 245, 245);
+    box-shadow: 0 4px 10px #d6ccc2;
 
     .item {
       text-align: center;
-
+      color: #3a2e39;
       //   border: solid black;
 
       h2 {
@@ -44,6 +45,7 @@
 
       p {
         font-size: 1rem;
+        color: #3a2e39;
       }
     }
   }

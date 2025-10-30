@@ -7,7 +7,7 @@
   gap: 20px;
   padding-top: 200px;
   padding-bottom: 100px;
-  background-color: #fafafa;
+  background-color: #fffcf2;
 
   .icons {
     display: flex;
@@ -16,17 +16,17 @@
     gap: 50px;
 
     a {
-      color: #591129; // default color for all icons (Instagram pink)
+      color: #3a2e39; // default color for all icons (Instagram pink)
       transition: color 0.3s;
 
       &:hover {
-        color: #c00e0e; // hover color
+        color: #1e555c; // hover color
       }
     }
   }
 
   .copyright {
-    color: gray;
+    color: #6c757d;
     margin: 0;
     padding: 0;
   }
