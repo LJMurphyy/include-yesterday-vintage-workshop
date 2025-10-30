@@ -1,14 +1,8 @@
-.main {
-    padding: 3%;
-}
-
 .horizontal {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    &.withPadding {
-        padding: 1%;
-    }
+    align-items: center;
 }
 
 .verticle {

@@ -1,0 +1,19 @@
+.horizontal {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.verticle {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.rubik700 {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
