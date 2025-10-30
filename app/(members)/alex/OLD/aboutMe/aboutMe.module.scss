@@ -6,13 +6,10 @@
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    &.withPadding {
-        padding: 1%;
-    }
 }
 
 .verticle {
     display: inline-block;
     flex-direction: column;
-    justify-content: center;
+    //justify-content: left;
 }

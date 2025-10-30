@@ -1,0 +1,71 @@
+// TODO: Add styling for your About me section!
+.main {
+  background-color: #fafafa;
+
+  .content {
+    display: flex;
+    height: 1000px;
+
+    .about {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 100px;
+      padding-left: 100px;
+      width: 50%;
+    }
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 70%;
+    }
+
+    .role {
+      color: brown;
+      font-size: 1rem;
+    }
+
+    h1 {
+      margin: 8px 0 30px 0;
+      color: black;
+      font-size: 4rem;
+    }
+
+    .items p {
+      color: gray;
+      font-size: 1.25rem;
+      line-height: 1.5;
+    }
+
+    .picture {
+      position: relative;
+      display: flex;
+      align-items: center;
+      padding-bottom: 90px;
+      width: 50%;
+    }
+
+    img {
+      object-fit: cover;
+      object-position: -120px;
+      width: 500px;
+      height: 500px;
+      border-radius: 50%;
+      z-index: 2;
+    }
+
+    .circle {
+      position: absolute;
+      top: 180px;
+      left: 60px;
+      width: 500px;
+      height: 500px;
+      background-color: brown;
+      border-radius: 50%;
+      z-index: 1;
+    }
+  }
+}
