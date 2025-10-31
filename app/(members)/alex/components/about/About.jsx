@@ -21,13 +21,13 @@ export default function About() {
               #include! The majority of my programming experience has been in web development, so 
               I am testing the waters to see if this is what I would really like to pursue. Outside
               of programming, I like drawing digital art, social deduction games (among us..), and karaoke
-              to specifically Laufey.{" "}
+              to specifically Laufey songs.{" "}
             </p>
           </article>
         </section>
 
         <section className={styles.picture}>
-          <img src="/team/jack/jack.JPG" alt="Jack Profile Picture" />
+          <img src="/team/alex/alex_face.jpg" alt="Alex Profile Picture" />
           <div className={styles.circle}></div>
         </section>
       </section>

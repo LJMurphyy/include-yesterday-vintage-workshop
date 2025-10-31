@@ -11,7 +11,7 @@ const teamMembers = [
   { name: "2", image: "/team/", href: "/" },
   { name: "3", image: "/team/", href: "/" },
   { name: "4", image: "/team/", href: "/" },
-  { name: "5", image: "/team/", href: "/alex" },
+  { name: "5", image: "/team/alex/alex_face.jpg", href: "/alex" },
   { name: "6", image: "/team/", href: "/" },
   { name: "7", image: "/team/", href: "/" },
   { name: "8", image: "/team/", href: "/" },

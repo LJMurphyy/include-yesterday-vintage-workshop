@@ -5,11 +5,11 @@ import Skills from "./components/skills/Skills.jsx";
 import EventCard from "./components/eventCard/eventCard.jsx";
 import Footer from "./components/footer/Footer.jsx";
 
-const projects = ["Blogin", "Quickly"];
-const images = ["/team/jack/Blogin.png", "/team/jack/Quickly.png"];
+const projects = ["Mafia Discord Bot", "Rewards Tracker Website"];
+const images = ["/team/alex/discord.gif", "/team/alex/plz.png"];
 const descriptions = [
-  "Blogin is a CRUD web application that allows users to create blogs about their day to day lives.",
-  "Quickly is a recipe finding web application that promotes food waste reduction. Users can insert the ingredients they have on hand and Quickly is able to find meals that can be made with those ingredients.",
+  "The Mafia Discord Bot is a Discord Bot that was designed for a specific server to manage an expanded-mafia game round. This enabled players with a whispering command, disabled certain chanells dependant on the day/night cycle, and gaver players and adminds 13 other commands.",
+  "The Rewards Tracker Website was designed specifically for my client to keep track of their credit card travel rewards. The .NET website allowed for basic CRUD functionality along with input validation, a login page, and the ability to undo an action.",
 ];
 
 export default function Jack() {

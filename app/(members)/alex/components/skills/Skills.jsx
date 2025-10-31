@@ -9,18 +9,23 @@ export default function Skills() {
 
       <section className={styles.content}>
         <section className={styles.item}>
-          <h2>HTML</h2>
-          <p>1.5 Years of Experience</p>
+          <h2>React Web Development</h2>
+          <p>0.5 Years of Experience</p>
         </section>
 
         <section className={styles.item}>
-          <h2>CSS</h2>
-          <p>1.5 Years of Experience</p>
+          <h2>.NET Web Development</h2>
+          <p>2 Years of Experience</p>
         </section>
 
         <section className={styles.item}>
-          <h2>JavaScript</h2>
-          <p>1.5 Years of Experience</p>
+          <h2>Discord Bot Development</h2>
+          <p>3 Years of Experience</p>
+        </section>
+
+        <section className={styles.item}>
+          <h2>Git/Github</h2>
+          <p>0.5 Years of Experience</p>
         </section>
       </section>
     </main>
