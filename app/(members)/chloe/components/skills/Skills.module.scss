@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Chalkboard';
+  src: url('/team/chloe/DkCrayonCrumble-ddll.ttf');
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: rgb(255, 242, 202);
+  scroll-margin-top: 170px;
+
+  .title {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 950px;
+    height: 100px;
+    color: #674E38;
+
+    h1 {
+      font-size: 3.5rem;
+      font-family: 'Comic Sans MS', sans-serif;
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 70%;
+    height: 500px;
+    margin-top: -50px;
+  
+
+    background-color: rgb(14, 100, 41);
+    font-family: 'Chalkboard', 'Comic Sans MS', sans-serif;
+
+    border: 20px solid rgb(204, 141, 73);
+    border-radius: 20px;
+    box-shadow: 0 0 8px 5px rgb(245, 245, 245);
+
+    .item {
+      display: flex;
+      align-items: center;
+      padding-left: 100px;
+      color: white;
+
+      h2 {
+        font-size: 3rem;
+      }
+
+      p {
+        font-size: 2.25rem;
+        padding-left: 25px;
+      }
+
+      .dash{
+        padding-left: 25px;
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .skillsImage{
+    position: absolute;
+    z-index: 2;
+    left: 850px;
+    top: 1000px;
+    width: 650px;
+    height: 650px;
+  }
+}

@@ -1,0 +1,88 @@
+// Remember to style your navbar!
+
+.newWrapper {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  padding: 39px 100px;
+  top: 0;
+  background-color: #674E38;
+  transition: background-color 0.3s ease;
+  z-index: 5;
+  font-family: 'Comic Sans MS', sans-serif;
+  overflow: hidden;
+  //border-radius: 30px;
+  //margin-top: 10px;
+  
+  span {
+    color: rgb(255, 213, 86);
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .iconImage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    transform: translate(-50%, -50%);
+    margin-top: -5px;
+    margin-left: 675px;
+  }
+
+  .left, .right{
+    display: flex;
+    gap: 200px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .right{
+    a:last-child{
+      transform: translate(-50px);
+    }
+  }
+  .navButton {
+    color: rgb(255, 213, 86);
+    text-decoration: none;
+    position: relative;
+    z-index: 50;
+
+    &:link {
+      color: rgb(255, 213, 86);
+    }
+
+    &:hover {
+      color: rgb(251, 217, 117);
+      text-decoration: underline;
+    }
+  }
+}
+
+.banner {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  z-index: 10;
+  pointer-events: none;
+
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transform: translateY(-155px);
+  }
+}
+

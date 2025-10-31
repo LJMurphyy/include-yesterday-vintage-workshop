@@ -7,7 +7,7 @@ const teamLeads = [
 ];
 
 const teamMembers = [
-  { name: "1", image: "/team/", href: "/" },
+  { name: "Chloe", image: "/team/", href: "/chloe" },
   { name: "2", image: "/team/", href: "/" },
   { name: "3", image: "/team/", href: "/" },
   { name: "4", image: "/team/", href: "/" },

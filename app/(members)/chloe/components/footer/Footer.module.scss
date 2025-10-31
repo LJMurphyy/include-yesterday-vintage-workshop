@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  gap: 20px;
+  padding-top: 50px 0;
+  background-color: rgb(255, 242, 202);
+
+  .footerImage{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 450px;
+    margin-top: -50px;
+  } 
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    a {
+      color: #591129; // default color for all icons (Instagram pink)
+      transition: color 0.3s;
+
+      &:hover {
+        color: #c00e0e; // hover color
+      }
+    }
+  }
+
+  .copyright {
+    color: gray;
+    margin: 0;
+    padding: 0;
+  }
+}
