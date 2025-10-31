@@ -20,7 +20,7 @@ export default function About() {
               Exploring different career areas of computer science is what piqued my interest in 
               #include! The majority of my programming experience has been in web development, so 
               I am testing the waters to see if this is what I would really like to pursue. Outside
-              of programming, I like drawing digital art, social deduction games (among us..), and karaoke
+              of programming, I like doing digital art, social deduction games (Among Us..), and karaoke
               to specifically Laufey songs.{" "}
             </p>
           </article>

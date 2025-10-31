@@ -8,7 +8,7 @@ import Footer from "./components/footer/Footer.jsx";
 const projects = ["Mafia Discord Bot", "Rewards Tracker Website"];
 const images = ["/team/alex/discord.gif", "/team/alex/plz.png"];
 const descriptions = [
-  "The Mafia Discord Bot is a Discord Bot that was designed for a specific server to manage an expanded-mafia game round. This enabled players with a whispering command, disabled certain chanells dependant on the day/night cycle, and gaver players and adminds 13 other commands.",
+  "The Mafia Discord Bot is a Discord Bot that was designed for a specific server to manage an expanded-mafia game round. This enabled players with a whispering command, disabled certain channels dependant on the day/night cycle, and gave players and admins 13 other commands.",
   "The Rewards Tracker Website was designed specifically for my client to keep track of their credit card travel rewards. The .NET website allowed for basic CRUD functionality along with input validation, a login page, and the ability to undo an action.",
 ];
 
