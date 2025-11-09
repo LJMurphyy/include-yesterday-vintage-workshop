@@ -3,7 +3,10 @@
 import { useState } from "react";
 import { Introduction } from "../introduction/Introduction.jsx";
 import { Skills } from "../skills/Skills.jsx";
+import { EventCard } from "../eventcard/EventCard.jsx";
 import styles from "./Main.module.scss";
+import { experiences } from "../../lists/experiences.js";
+import { projects } from "../../lists/experiences.js";
 
 const pages = ["Introduction", "Skills"];
 
@@ -37,6 +40,34 @@ export function Main() {
           </div>
         )}
       </main>
+      <div className={styles.title}>
+        <h1>Experience</h1>
+      </div>
+      <div className={styles.experienceCard}>
+        {experiences.map((experience, index) => (
+          <EventCard
+            key={index}
+            src={experience.src}
+            title={experience.title}
+            description={experience.description}
+            techStack={experience.techStack}
+          />
+        ))}
+      </div>
+      <div className={styles.title}>
+        <h1>Projects</h1>
+      </div>
+      <div className={styles.experienceCard}>
+        {projects.map((experience, index) => (
+          <EventCard
+            key={index}
+            src={experience.src}
+            title={experience.title}
+            description={experience.description}
+            techStack={experience.techStack}
+          />
+        ))}
+      </div>
     </div>
   );
 }

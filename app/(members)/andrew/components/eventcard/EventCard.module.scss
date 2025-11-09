@@ -1,0 +1,40 @@
+.container {
+  border: 1px solid;
+  padding: 1rem 0;
+  background-color: var(--color-surface);
+  text-align: center;
+  color: var(--color-muted-gray);
+}
+
+.eventLayout {
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: rgb(240, 233, 233);
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 360px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 1;
+  overflow: hidden;
+}
+
+.title {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.description {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.techStack {
+  display: flex;
+  justify-content: left;
+  gap: 1rem;
+  padding-left: 1rem;
+}
