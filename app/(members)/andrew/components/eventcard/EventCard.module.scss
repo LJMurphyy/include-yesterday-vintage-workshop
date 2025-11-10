@@ -1,18 +1,20 @@
 .container {
-  border: 1px solid;
-  padding: 1rem 0;
+  // border: 1px solid;
   background-color: var(--color-surface);
   text-align: center;
   color: var(--color-muted-gray);
 }
 
 .eventLayout {
-  border: 1px solid;
+  border: 3px solid rgb(219, 216, 216);
   border-radius: 10px;
   background-color: rgb(240, 233, 233);
+  height: 420px;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-between;
   max-width: 360px;
+  height: 450px;
 }
 
 .image {
@@ -22,19 +24,38 @@
   overflow: hidden;
 }
 
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
 .title {
   text-align: left;
+  // border: 1px solid;
   padding-left: 10px;
 }
 
 .description {
   text-align: left;
+  // border: 1px solid;
   padding-left: 10px;
+  overflow: hidden;
+}
+
+.bottomLayer {
+  width: 100%;
+  margin-top: auto;
 }
 
 .techStack {
   display: flex;
-  justify-content: left;
+  // border: 1px solid;
+  justify-content: bottom;
+  flex-direction: row;
   gap: 1rem;
-  padding-left: 1rem;
+  padding-left: 0.25rem;
+  padding-top: 0.25rem;
 }

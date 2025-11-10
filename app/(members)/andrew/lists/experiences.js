@@ -17,7 +17,7 @@ export const projects = [
   },
   {
     src: "/team/andrew/IMG_4507.jpg",
-    title: "Free Unity Hoverbike Controller demo",
+    title: "Unity Hoverbike Controller demo",
     description: "Fun Controllable Bike Physics template using rigidbody.",
     techStack: ["C#"],
   },
@@ -30,7 +30,7 @@ export const projects = [
   },
   {
     src: "/team/andrew/IMG_4507.jpg",
-    title: "Battlefront-style Flight Controller",
+    title: "Battlefront Flight Controller",
     description:
       "A battle flight system using Rigidbody physics to propel the ship or plane forward.",
     techStack: ["C#"],
