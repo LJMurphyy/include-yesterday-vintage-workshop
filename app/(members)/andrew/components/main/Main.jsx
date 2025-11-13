@@ -17,7 +17,7 @@ export function Main() {
     <div>
       <div className={styles.navBar}>
         <div className={styles.navButtons}>
-          {pages.map((page, index) => (
+          {/* {pages.map((page, index) => (
             <button
               className={styles.button}
               key={index}
@@ -25,10 +25,11 @@ export function Main() {
             >
               {page}
             </button>
-          ))}
+          ))} */}
         </div>
       </div>
-      <main className={styles.content}>
+      <Introduction />
+      {/* <main className={styles.content}>
         {currPage === "Introduction" && (
           <div className={styles.fadeIn}>
             <Introduction />
@@ -39,34 +40,38 @@ export function Main() {
             <Skills />
           </div>
         )}
-      </main>
+      </main> */}
       <div className={styles.title}>
         <h1>Experience</h1>
       </div>
-      <div className={styles.experienceCard}>
-        {experiences.map((experience, index) => (
-          <EventCard
-            key={index}
-            src={experience.src}
-            title={experience.title}
-            description={experience.description}
-            techStack={experience.techStack}
-          />
-        ))}
+      <div className={styles.experienceContrainer}>
+        <div className={styles.experienceCard}>
+          {experiences.map((experience, index) => (
+            <EventCard
+              key={index}
+              src={experience.src}
+              title={experience.title}
+              description={experience.description}
+              techStack={experience.techStack}
+            />
+          ))}
+        </div>
       </div>
       <div className={styles.title}>
         <h1>Projects</h1>
       </div>
-      <div className={styles.experienceCard}>
-        {projects.map((experience, index) => (
-          <EventCard
-            key={index}
-            src={experience.src}
-            title={experience.title}
-            description={experience.description}
-            techStack={experience.techStack}
-          />
-        ))}
+      <div className={styles.experienceContrainer}>
+        <div className={styles.experienceCard}>
+          {projects.map((experience, index) => (
+            <EventCard
+              key={index}
+              src={experience.src}
+              title={experience.title}
+              description={experience.description}
+              techStack={experience.techStack}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

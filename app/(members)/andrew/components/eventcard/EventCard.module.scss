@@ -15,6 +15,7 @@
   justify-content: space-between;
   max-width: 360px;
   height: 450px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .image {
@@ -27,6 +28,7 @@
 .texts {
   display: flex;
   flex-direction: column;
+  font-family: sans-serif;
   gap: 6px;
   flex: 1 1 auto;
   min-height: 0;

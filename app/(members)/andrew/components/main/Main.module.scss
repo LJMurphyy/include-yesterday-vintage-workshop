@@ -7,14 +7,23 @@
   gap: 4rem;
 }
 
+.experienceContrainer {
+  display: flex;
+  margin: 0 auto;
+  max-width: 83.05%;
+  justify-content: center;
+}
+
 .experienceCard {
   display: flex;
-  justify-content: center;
-  padding: 2rem;
+  flex-direction: row;
+  align-self: center;
   gap: 2rem;
-  // border: 1px solid;
+  padding: 1rem;
+  flex-wrap: wrap;
 }
 
 .title {
   text-align: center;
+  font-family: sans-serif;
 }

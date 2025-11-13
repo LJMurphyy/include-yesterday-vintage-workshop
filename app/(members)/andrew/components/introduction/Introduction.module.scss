@@ -9,13 +9,38 @@
 }
 
 .box {
-  width: 700px;
+  display: flex;
+  max-width: 1200px;
   height: 500px;
-  background-color: #555558; /* Indigo background */
-  color: rgb(224, 215, 215);
+  background-color: rgb(240, 233, 233);
+  color: rgb(32, 26, 26);
 
   padding: 2rem;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* optional shadow */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 3px solid rgb(219, 216, 216);
   font-family: sans-serif;
+
+  .imageContainer {
+    align-self: center;
+    object-position: top;
+  }
+
+  .image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 6rem;
+    justify-content: center;
+
+    .introName {
+      padding-bottom: 30px;
+    }
+  }
 }
