@@ -1,0 +1,31 @@
+.main {
+  background-color: #0f0f0f;
+}
+
+.eventCard {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 200px;
+  background-color: #0f0f0f;
+
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 3.5rem;
+    color: #ffffff;
+  }
+
+  .card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

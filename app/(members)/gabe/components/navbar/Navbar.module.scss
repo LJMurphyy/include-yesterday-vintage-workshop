@@ -1,0 +1,38 @@
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  padding: 20px 100px;
+  background-color: rgba(15, 15, 15, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  z-index: 3;
+
+  .name {
+    position: absolute;
+    left: 100px;
+    span {
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+  }
+
+  .links {
+    display: flex;
+    gap: 40px;
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: #60a5fa;
+      }
+    }
+  }
+}

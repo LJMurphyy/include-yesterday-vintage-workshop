@@ -1,0 +1,47 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 50px 30px 50px;
+  background-color: #0f0f0f;
+  margin-top: 100px;
+  gap: 20px;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+  }
+
+  .copyright {
+    p {
+      margin: 0;
+      font-size: 1rem;
+      color: #ffffff;
+      font-weight: 500;
+    }
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex: 1;
+
+    a {
+      color: #d1d5db;
+      transition: color 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        color: #60a5fa;
+      }
+    }
+  }
+}

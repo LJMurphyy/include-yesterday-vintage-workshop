@@ -14,7 +14,7 @@ const teamMembers = [
   { name: "5", image: "/team/", href: "/" },
   { name: "6", image: "/team/", href: "/" },
   { name: "7", image: "/team/", href: "/" },
-  { name: "8", image: "/team/", href: "/" },
+  { name: "Gabe", image: "/team/", href: "/gabe" },
 ];
 
 export default function HomePage() {
