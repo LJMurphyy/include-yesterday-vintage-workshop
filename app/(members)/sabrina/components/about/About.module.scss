@@ -24,11 +24,8 @@
     }
 
     .role {
-      color: plum;
-      font-size: 10rem;
-    }
-    .name {
-      color: pink;
+      color: #907F76;
+      font-size: 1rem;
     }
 
     h1 {
@@ -49,15 +46,17 @@
       align-items: center;
       padding-bottom: 90px;
       width: 50%;
+      border-radius: 50%;
     }
 
     img {
       object-fit: cover;
-      object-position: -120px;
+      // object-position: -120px;
       width: 500px;
       height: 500px;
       border-radius: 50%;
       z-index: 2;
+      // border-radius: 50px;
     }
 
     .circle {
@@ -66,7 +65,7 @@
       left: 60px;
       width: 500px;
       height: 500px;
-      background-color: brown;
+      background-color: #e3d5ca;
       border-radius: 50%;
       z-index: 1;
     }

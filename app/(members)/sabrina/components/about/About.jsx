@@ -13,20 +13,17 @@ export default function About() {
             <span className={styles.role}>Web Developer</span>
 
             <h1>
-              Hi, I'm <span classname={styles.name}>Sabrina</span>!
+              Hi, I'm <span>Sabrina</span>!
             </h1>
 
             <p>
-              As a web developer, I strive to build digital solutions that drive
-              social change. Whether it's improving accessibility, amplifying
-              important causes, or streamlining nonprofit operations, I aim to
-              create websites that make a real impact.
+              I'm a second year data science major. Most of my experience comes from building projects using machine learning. I'm currently learning web development so I can develop full stack projects! I'm excited to see what fun web dev projects I'm able to build. {" "}
             </p>
           </article>
         </section>
 
         <section className={styles.picture}>
-          <img src="/team/jack/jack.JPG" alt="Jack Profile Picture" />
+          <img src="/team/sabrina/sabrina.JPG" alt="Sabrina Profile Picture" />
           <div className={styles.circle}></div>
         </section>
       </section>
